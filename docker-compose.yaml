@@ -1,0 +1,7 @@
+services:
+  projekt-website:
+    image: be01/website:v1
+    ports:
+      - 80:80
+    restart: always
+
